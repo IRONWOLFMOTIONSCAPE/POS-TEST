@@ -1,0 +1,22 @@
+{
+  "name": "mini-pos-system",
+  "version": "1.0.0",
+  "description": "Mini POS System with Sales History",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
